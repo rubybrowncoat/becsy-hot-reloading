@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lastolivegames/becsy':
-        specifier: ^0.15.5
-        version: 0.15.5
+        specifier: file:../becsy-fork
+        version: file:../becsy-fork
       '@radix-ui/react-slot':
         specifier: ^1.1.0
         version: 1.1.0(@types/react@18.3.4)(react@18.3.1)
@@ -488,8 +488,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@lastolivegames/becsy@0.15.5':
-    resolution: {integrity: sha512-RZEL52er3eH+zpczz2xPyVIxVId+tx0pfTRxYjvE4Vi14plgHzqX7q+4TTJvJDmaxR9pdVjGwFnrY0Oe23fN7Q==}
+  '@lastolivegames/becsy@file:../becsy-fork':
+    resolution: {directory: ../becsy-fork, type: directory}
     engines: {node: '>=12'}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -2605,7 +2605,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lastolivegames/becsy@0.15.5': {}
+  '@lastolivegames/becsy@file:../becsy-fork': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:

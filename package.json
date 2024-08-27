@@ -8,7 +8,7 @@
         "bundle-old": "npm run build && mkdir -p dist && zip -r dist/game.zip www -x \"**/.DS_Store\""
     },
     "dependencies": {
-        "@lastolivegames/becsy": "^0.15.5",
+        "@lastolivegames/becsy": "file:../becsy-fork",
         "@radix-ui/react-slot": "^1.1.0",
         "@radix-ui/react-tooltip": "^1.1.2",
         "@timohausmann/quadtree-ts": "^2.2.2",
