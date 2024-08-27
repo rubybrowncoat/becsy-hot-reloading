@@ -1,0 +1,14 @@
+{
+  "endOfLine": "lf",
+  "semi": false,
+  "printWidth": 80000,
+  "singleQuote": true,
+  "singleAttributePerLine": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "importOrder": ["^react$", "<THIRD_PARTY_MODULES>", ".css$", "^@/lib/(.*)$", "^@/components/ui/(.*)$", "^@/components/(.*)$", "^@/utils/(.*)$", "^@/scenes/(.*)$", "^@/types/(.*)$", "^[./]"],
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators", "importAssertions"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"]
+}
