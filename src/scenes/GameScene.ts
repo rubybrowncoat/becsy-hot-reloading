@@ -191,7 +191,7 @@ export class GameScene extends BaseScene {
       cameraDragStartX = this.camera.scrollX
       cameraDragStartY = this.camera.scrollY
 
-      console.log(this.mapManager.world?.stats.components, this.mapManager.world?.stats.systems)
+      // console.log(this.mapManager.world?.stats.components, this.mapManager.world?.stats.systems)
     })
 
     this.input.on('pointermove', (pointer: Phaser.Input.Pointer) => {
